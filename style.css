@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.card:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.card h3 {
+    margin: 0;
+}
+
+.card p {
+    margin: 0;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
